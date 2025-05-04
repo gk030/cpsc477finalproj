@@ -14,10 +14,10 @@ Json 2.0.9 <br/>
 Matplotlib 3.10.0 <br/>
 
 
-Environment Set-Up:
-First make sure you have the required libraries installed:
-!pip install transformers
-!pip install tensorflow
-!pip install datasets
+Environment Set-Up: <br/>
+First make sure you have the required libraries installed: <br/>
+!pip install transformers <br/>
+!pip install tensorflow <br/>
+!pip install datasets <br/>
 
 The project was run on a single T4 GPU on Colab, but it can also work on a local system as long as system requirements are met. 
