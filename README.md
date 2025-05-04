@@ -1,4 +1,6 @@
-Dependencies and External Libraries:
+# Domain Adaptation of BERT to SuperCollider Code with an Ablation on Dataset Preprocessing
+
+### Dependencies and External Libraries:
 
 Transformers 4.51.3 <br/>
 Tensorflow 2.18.0 <br/>
@@ -14,12 +16,15 @@ Json 2.0.9 <br/>
 Matplotlib 3.10.0 <br/>
 
 
-Environment Set-Up: <br/>
+### Environment Set-Up:
 First make sure you have the required libraries installed: <br/>
-!pip install transformers <br/>
-!pip install tensorflow <br/>
-!pip install datasets <br/>
+```bash
+pip install transformers
+pip install tensorflow
+pip install datasets
+````
 
 The project was run on a single T4 GPU on Colab, but it can also work on a local system as long as system requirements are met. <br/>
 
-There are two files, nontagged and tagged, which are the code for running the nontagged data and the tagged data, respectively. The code for the benchmarking is in the files as well.
+The datasets can be found in [this Dropbox link](https://www.dropbox.com/scl/fo/6zq5jduzv9yoqpu0sk8p9/AM9vwTk5aqHl2rAmKfmAg48?rlkey=xxo8vb55784igy4qkaxdtd7ad&st=yuui0fyh&dl=0) since they are too large for Github upload.
+The code for the benchmarking is in the files as well.
