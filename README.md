@@ -20,4 +20,6 @@ First make sure you have the required libraries installed: <br/>
 !pip install tensorflow <br/>
 !pip install datasets <br/>
 
-The project was run on a single T4 GPU on Colab, but it can also work on a local system as long as system requirements are met. 
+The project was run on a single T4 GPU on Colab, but it can also work on a local system as long as system requirements are met. <br/>
+
+There are two files, nontagged and tagged, which are the code for running the nontagged data and the tagged data, respectively. The code for the benchmarking is in the files as well.
